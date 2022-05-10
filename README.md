@@ -1,1 +1,1 @@
-# smpleshop-repository
+# sampleshop-repository
