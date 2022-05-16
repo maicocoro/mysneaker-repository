@@ -1,0 +1,79 @@
+.contact {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact h4 {
+  font-size: 40px;
+}
+
+.contact form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.contact form label {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.contact form input {
+  width: 400px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 6px;
+  font-size: 16px;
+}
+
+.contact form textarea {
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  font-size: 16px;
+}
+
+.contact form .submit {
+  background-color: lightgray;
+  width: 200px;
+  height: 80px;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 599px) {
+  .contact {
+    width: 100%;
+    padding: 0 15px;
+    margin-top: 80px;
+  }
+  .contact h4 {
+    font-size: 26px;
+  }
+  .contact form label {
+    font-size: 16px;
+  }
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+  }
+  .contact form .submit {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=contact.css.map */
