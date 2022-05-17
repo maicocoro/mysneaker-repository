@@ -1,0 +1,30 @@
+.company-introduction .company-text {
+  position: absolute;
+  top: 50%;
+  left: 9%;
+  color: #fff;
+}
+
+.company-introduction h3 {
+  font-size: 80px;
+}
+
+.company-introduction video {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 599px) {
+  .company-introduction .company-text h3 {
+    font-size: 45px;
+  }
+  .company-introduction .company-text video {
+    width: 100%;
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+/*# sourceMappingURL=company.css.map */
