@@ -6,12 +6,11 @@ $(function(){
 })
 //フェードイン
 $(function () {
-    $('.skill-text,.service-item').on('inview',function(){
+    $('.brand-text,.brand-item').on('inview',function(){
       $(this).addClass('fadeIn')
     });
    });
-      
-
+   
 //画像スライダー
 $(function () {
     $('.slider1').slick({

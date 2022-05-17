@@ -18,7 +18,7 @@
 @media screen and (max-width: 1024px) {
     .company-introduction{
         .company-text{
-            top: 30%;
+            top: 40%;
             left: 5%;
         }
 }
@@ -29,7 +29,7 @@
         .company-text{
             top: 50%;
             left: 50%;
-            transform: translate(-50%,50%);
+            transform: translate(-50%,-50%);
         }
         h3{
             font-size: 50px;
@@ -38,7 +38,7 @@
             text-align: center;
         }
         video{
-        height: 600px;
+        height: 500px;
         }
     }
 }
